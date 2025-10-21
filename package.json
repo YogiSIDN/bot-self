@@ -17,7 +17,7 @@
     "session": "npm:baileys-mongodb",
     "util": "^0.12.5",
     "uuid": "^11.1.0",
-    "wa-bot": "npm:@itsukichan/baileys"
+    "wa-bot": "npm:sanka-baileyss"
   },
   "author": "Mohammad Yogi Sugalih",
   "license": "ISC",
