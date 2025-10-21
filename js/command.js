@@ -8,7 +8,7 @@ const { getAdmin, parseMention } = require("../js/function")
 
 module.exports = async (sock, m, msg, chatUpdate, store) => {
     try {
-        console.log(JSON.stringify(msg, null, 2))
+        // console.log(JSON.stringify(msg, null, 2))
         const body = (m.mtype === "conversation" 
             ? m.message.conversation : m.mtype === "imageMessage" 
             ? m.message.imageMessage.caption : m.mtype === "videoMessage" 
