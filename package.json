@@ -1,10 +1,11 @@
 {
-  "name": "bot whatsapp anime",
+  "name": "bot-whatsapp-anime",
   "version": "1.0.0",
   "description": "Project ini dibuat untuk sekedar hiburan.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'skip build step'"
   },
   "dependencies": {
     "child_process": "^1.0.2",
